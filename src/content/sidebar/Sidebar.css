@@ -1,0 +1,51 @@
+.list-active {
+  list-style: none;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background: #13255b 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  border-radius: 0px 8px 8px 0px;
+  padding-top: 10px;
+  color: white;
+}
+.list-disable {
+  list-style: none;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background: #ffffff 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  border-radius: 0px 8px 8px 0px;
+  padding-top: 10px;
+}
+.list-disable:hover {
+  list-style: none;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background: #13255bde 0% no-repeat padding-box;
+  color: white;
+}
+.unorder-list li p {
+  font-size: 11px;
+  width: 60px;
+  margin: 0;
+  text-align: center;
+}
+.unorder-list {
+  padding: 0;
+  width: 60px;
+  height: 180px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0px 8px 8px 0px;
+  opacity: 1;
+  z-index: 33;
+}
+.link-route {
+  text-decoration: none;
+  color: black;
+}

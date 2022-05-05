@@ -1,0 +1,54 @@
+.calender {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.arrow-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-icon svg {
+  cursor: pointer;
+}
+.week-style {
+  background: #ffa741 0% 0% no-repeat padding-box !important;
+  border-radius: 12px 12px 0px 0px;
+  opacity: 1;
+  color: #ffff;
+}
+.Calen-thead th {
+  width: 28px;
+  height: 20px;
+  text-align: center;
+  font: normal normal normal 16px/21px Roboto;
+}
+.Calen-thead th p {
+  margin: 0;
+}
+.Calen-tbody td p {
+  margin: 0;
+}
+.Calen-tbody td {
+  width: 28px;
+  height: 20px;
+  text-align: center;
+  font: normal normal normal 16px/21px Roboto;
+}
+.day-style {
+  background: #1f2439 0% 0% no-repeat padding-box !important;
+  border-radius: 0 0 12px 12px;
+  color: #ffff;
+  opacity: 1;
+}
+.tables {
+  width: 198px;
+  height: 54px !important;
+}
+.p-month {
+  font: normal normal normal 14px/19px Roboto;
+}
+.style-gray {
+  color: rgba(128, 128, 128, 0.7);
+}

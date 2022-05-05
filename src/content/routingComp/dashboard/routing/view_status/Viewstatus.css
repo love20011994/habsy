@@ -1,0 +1,74 @@
+.Viewstatus-div {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 707px;
+  background: #000000de 0% 0% no-repeat padding-box;
+}
+.Viewstatus {
+  width: 482px;
+  height: 403px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  padding: 20px;
+  padding-left: 80px;
+}
+.levels {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.level {
+  width: 70px;
+}
+.level h6 {
+  text-align: left;
+  font: normal normal medium 14px/19px Noto Sans;
+  letter-spacing: 0px;
+  color: #002341;
+  opacity: 1;
+}
+.level-img {
+  position: relative;
+}
+.level-img-abs {
+  position: absolute;
+  left: 0;
+  margin-top: 8px;
+  margin-left: 6px;
+}
+.remarks {
+  margin-top: 20px;
+  width: 100%;
+  height: 225px;
+  overflow-y: auto;
+}
+.remarks textarea {
+  width: 316px;
+  height: 102px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.remarks button {
+  width: 95px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.cancel {
+  justify-content: end;
+}
+.cancel svg {
+  cursor: pointer;
+}

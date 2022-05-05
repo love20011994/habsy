@@ -1,0 +1,233 @@
+.sidebar {
+  width: 475px;
+  height: 92vh;
+  background: #f9fafc 0% 0% no-repeat padding-box !important;
+  opacity: 1;
+  padding-left: 36px;
+  padding-top: 18px;
+  padding-right: 36px;
+  padding-bottom: 31px;
+  position: fixed;
+  top: 60px;
+  right: 0;
+}
+.sidebar-div {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background: #000000d0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.header {
+  width: 100% !important;
+  /* display: flex;
+  align-items: center; */
+  top: 0;
+}
+.header h4 {
+  height: 28px;
+  text-align: left;
+  font: normal normal medium 21px/28px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
+.cancel-icon {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  padding-left: 16px !important;
+  cursor: pointer;
+}
+.cancel-icon img {
+  width: 18px;
+}
+.header button {
+  width: 81px;
+  height: 34px;
+  background: #d5e3ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.bill-details {
+  margin-top: 5px;
+}
+.bill-details-tbody tr th {
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  height: 25px;
+  color: #141414;
+  opacity: 1;
+}
+.bill-details table tr td {
+  height: 21px;
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+  padding-bottom: 8px;
+  padding-left: 20px;
+}
+.product-detail {
+  margin-top: 20px;
+}
+.product-detail table {
+  width: 408px !important;
+}
+.head-product-detail td {
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
+.unit-in {
+  width: 92px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.qty-in {
+  width: 123px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.net-in {
+  width: 170px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+}
+.tax-table {
+  margin-top: 20px;
+}
+.tax-table table {
+  width: 408px !important;
+}
+.tax-head td {
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
+.tax-name {
+  width: 90px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
+.rate-in {
+  width: 124px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+  margin-top: 8px;
+}
+.amount-in {
+  width: 173px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+  margin-top: 8px;
+}
+.bill-amount {
+  margin-top: 20px;
+}
+.bill-amount label {
+  width: 88px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
+
+.bill-amount input {
+  width: 194px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 8px;
+}
+.actions {
+  margin-top: 10px;
+}
+.actions button {
+  width: 95px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 10px;
+}
+.input-file {
+  width: 147px;
+  height: 34px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.4000000059604645px solid #e0e0e0;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.input-file img {
+  width: 23px;
+  height: 21px;
+}
+.input-file p {
+  width: 100px;
+  height: 19px;
+  margin: 0;
+  text-align: left;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 5px;
+}
+.upload div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  text-align: left;
+  font: normal normal normal 10px/13px Roboto;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 1;
+}
